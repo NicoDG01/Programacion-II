@@ -9,6 +9,6 @@ int main(){
     printf("Ingrese un caracter: "); gets(letra);
     for (i = 0; i < strlen(letra); i++){
         printf("El caracter ingresado fue: %c\n",letra[i]);
-        printf("El codigo ASCII es: %d\n",letra[i]);
+        printf("El codigoo ASCII es: %d\n",letra[i]);
     }
 }

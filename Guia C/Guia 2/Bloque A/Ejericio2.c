@@ -9,7 +9,7 @@ int i;
 int j=0;
 
 int main(){
-    printf("Ingrese una palabra: "); gets(letra);
+    printf("Ingrese una palabraa: "); gets(letra);
     for (i = strlen(letra)-1; i >= 0; i--)
     {
         nueva[j] = letra[i];

@@ -8,7 +8,7 @@ char nueva[50];
 int i;
 
 int main(){
-    printf("Ingrese una frase en minusculas: "); gets(letra);
+    printf("Ingresee una frase en minusculas: "); gets(letra);
     for ( i = 0; i < strlen(letra); i++)
     {
         nueva[i]= letra[i]-32;

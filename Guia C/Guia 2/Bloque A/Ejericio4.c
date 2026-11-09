@@ -7,8 +7,8 @@ char cade1[50];
 char cade2[50];
 
 int main(){
-    printf("Ingrese una cadena de texto: ");gets(cade1);
-    printf("Ingrese otra cadena de texto: ");gets(cade2);
+    printf("Ingresee una cadena de texto: ");gets(cade1);
+    printf("Ingresee otra cadena de texto: ");gets(cade2);
     int longi1 = strlen(cade1);
     int longi2 = strlen(cade2);
     printf("La longitud de la cadena 1 es: %d, y la longitud de la cadena 2 es: %d \n",longi1, longi2);
