@@ -43,5 +43,5 @@ int main()
     std::cout << "Nueva ganancia: " << antenaNorte.getGanancia() << " dBi\n";
     std::cout << "Frecuencia: " << antenaSur.getFrecuencia() << " MHz\n";
 
-return 0;
+    return 0;
 }

@@ -14,12 +14,12 @@ double wattsADbm(double w)
 
 int main()
 {
-double potenciaDbm = -30.0;
-double potenciaWatts = dbmAWatts(potenciaDbm);
-printf("%.2f dBm = %.6f W\n", potenciaDbm, potenciaWatts);
-double watts = 0.001;
-double dbm = wattsADbm(watts);
-printf("%.4f W = %.2f dBm\n", watts, dbm);
+    double potenciaDbm = -30.0;
+    double potenciaWatts = dbmAWatts(potenciaDbm);
+    printf("%.2f dBm = %.6f W\n", potenciaDbm, potenciaWatts);
+    double watts = 0.001;
+    double dbm = wattsADbm(watts);
+    printf("%.4f W = %.2f dBm\n", watts, dbm);
 
-return 0;
+    return 0;
 }

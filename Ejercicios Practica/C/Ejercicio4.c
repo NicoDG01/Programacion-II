@@ -22,14 +22,14 @@ double calcularMargen(double Prx, double s)
 
 int main()
 {
-double eirp = calcularEIRP(43.0, 15.0);
-double perdida = calcularFSPL(5.0, 2400.0);
-double potenciaRx = calcularPotenciaRx(eirp, 12.0, perdida);
-double margen = calcularMargen(potenciaRx, -95.0);
-printf("EIRP: %.2f dBm\n", eirp);
-printf("Perdida FSPL: %.2f dB\n", perdida);
-printf("Potencia Rx: %.2f dBm\n", potenciaRx);
-printf("Margen de enlace: %.2f dB\n", margen);
+    double eirp = calcularEIRP(43.0, 15.0);
+    double perdida = calcularFSPL(5.0, 2400.0);
+    double potenciaRx = calcularPotenciaRx(eirp, 12.0, perdida);
+    double margen = calcularMargen(potenciaRx, -95.0);
+    printf("EIRP: %.2f dBm\n", eirp);
+    printf("Perdida FSPL: %.2f dB\n", perdida);
+    printf("Potencia Rx: %.2f dBm\n", potenciaRx);
+    printf("Margen de enlace: %.2f dB\n", margen);
 
-return 0;
+    return 0;
 }

@@ -14,11 +14,11 @@ double calcularPotenciaRecibida(double x, double y, double z, double p)
 
 int main()
 {
-double distanciaKm = 5.0;
-double frecuenciaMHz = 2400.0;
-double perdida = calcularFSPL(distanciaKm, frecuenciaMHz);
-printf("Perdida por espacio libre: %.2f dB\n", perdida);
-double potenciaRx = calcularPotenciaRecibida(43.0, 15.0, 12.0, perdida);
-printf("Potencia recibida estimada: %.2f dBm\n", potenciaRx);
-return 0;
+    double distanciaKm = 5.0;
+    double frecuenciaMHz = 2400.0;
+    double perdida = calcularFSPL(distanciaKm, frecuenciaMHz);
+    printf("Perdida por espacio libre: %.2f dB\n", perdida);
+    double potenciaRx = calcularPotenciaRecibida(43.0, 15.0, 12.0, perdida);
+    printf("Potencia recibida estimada: %.2f dBm\n", potenciaRx);
+    return 0;
 }

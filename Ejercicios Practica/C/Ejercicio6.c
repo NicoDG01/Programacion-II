@@ -39,11 +39,11 @@ const char *descripcionCalidad(int c)
 
 int main()
 {
-double rssi = -68.5;
+    double rssi = -68.5;
 
-int calidad = clasificarRSSI(rssi);
-printf("RSSI: %.1f dBm -> Calidad: %d\n", rssi, calidad);
-const char *descripcion = descripcionCalidad(calidad);
-printf("Descripcion: %s\n", descripcion);
-return 0;
+    int calidad = clasificarRSSI(rssi);
+    printf("RSSI: %.1f dBm -> Calidad: %d\n", rssi, calidad);
+    const char *descripcion = descripcionCalidad(calidad);
+    printf("Descripcion: %s\n", descripcion);
+    return 0;
 }

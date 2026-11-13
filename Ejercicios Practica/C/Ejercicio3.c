@@ -11,11 +11,11 @@ void calcularParametrosAntena(double v, double *cR, double *rl)
 
 int main()
 {
-double vswr = 1.5;
-double coefReflexion, returnLoss;
-calcularParametrosAntena(vswr, &coefReflexion, &returnLoss);
-printf("VSWR: %.2f\n", vswr);
-printf("Coeficiente de reflexion: %.4f\n", coefReflexion);
-printf("Return Loss: %.2f dB\n", returnLoss);
-return 0;
+    double vswr = 1.5;
+    double coefReflexion, returnLoss;
+    calcularParametrosAntena(vswr, &coefReflexion, &returnLoss);
+    printf("VSWR: %.2f\n", vswr);
+    printf("Coeficiente de reflexion: %.4f\n", coefReflexion);
+    printf("Return Loss: %.2f dB\n", returnLoss);
+    return 0;
 }
